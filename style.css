@@ -10,24 +10,30 @@ header{
 #logo{
 	background: #4aaaa5;
 	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+  	font-size: 30px;
+  	text-align: center;
 }
 nav a{
 	display: inline-block;
 	text-decoration: none;
-	padding-top: 20px;
+	padding-top: 20px solid white;
 	line-height: 18px;
   	color: #999;
   	border-left: 1px solid #efefef;
 }
+.mainsection{
+	border:1px solid #ccc;
+}
 .sidebar{
 	border:1px solid #ccc;
 }
-@media screen and (max-width: 980px;){
-
-}
-@media screen and (max-width: 768px;){
-
-}
-@media screen and (max-width: 640px;){
+footer{
+	width:100%;
+	text-align: center;
+	padding:20px;
+	background-color: #666;
+	border-top: 2px solid #4aaaa5;
+	color:white;
 
 }
