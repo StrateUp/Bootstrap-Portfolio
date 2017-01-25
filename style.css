@@ -1,37 +1,78 @@
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+}
+*{
+	box-sizing: border-box;
+}
+.col-md-2{
+	max-width: 160px;
+
+}
+.col-md-2:nth child(5){
+	max-width: 300px;
+}
 header{
 	width: 100%;
 	margin:0 auto;
 	border-bottom: 2px solid #ccc;
 
 }
+.title h2{
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+}
 .row{
 	display: inline-block;
 }
+
 #logo{
 	background: #4aaaa5;
 	color: #fff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
   	font-size: 30px;
   	text-align: center;
+  	border-bottom:none;
+  	height: 100%;
 }
 nav a{
 	display: inline-block;
 	text-decoration: none;
+
 	padding-top: 20px solid white;
 	line-height: 18px;
   	color: #999;
   	border-left: 1px solid #efefef;
 }
+.auth-image{
+	float:left;
+}
+main{
+	background-image: url("/assets/seigaiha/seigaiha.png");
+}
 .mainsection{
 	border:1px solid #ccc;
+	padding: 10px;
+	margin:10px;
 }
 .sidebar{
 	border:1px solid #ccc;
+	padding:10px;
+	margin:10px;
 }
 footer{
 	width:100%;
 	text-align: center;
-	padding:20px;
+	padding:20px 20px 40px 20px;
 	background-color: #666;
 	border-top: 2px solid #4aaaa5;
 	color:white;
